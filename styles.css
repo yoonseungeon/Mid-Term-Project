@@ -56,16 +56,24 @@ main {
 
 section {
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     background: #ffffff; /* 기본 배경색 */
 }
 
+section#about {
+    background-color: #f0f8ff; /* About Me section background color */
+}
+
 section#skills {
-    background-color: #e8f0fe; /* 스킬 섹션 배경색; /* Skills section background color */
+    background-color: #e8f0fe; /* Skills section background color */
 }
 
 section#certificates {
     background-color: #ffe8d6; /* Certificates section background color */
+}
+
+section#projects {
+    background-color: #e6e6fa; /* Projects section background color */
 }
 
 .project-grid {
@@ -75,7 +83,7 @@ section#certificates {
 }
 
 .project-item {
-    background-color: #eeeeee;
+    background-color: #f8f9fa;
     padding: 1rem;
     border-radius: 0.5rem;
     text-align: center;
