@@ -1,33 +1,99 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+* {
     margin: 0;
     padding: 0;
-    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
 }
 
-header, section, footer {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
 }
 
-header h1 {
-    color: #333;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
-    color: #06c;
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-a:hover {
+.menu a {
     text-decoration: none;
+    color: #333333;
+    margin-left: 1rem;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+header .header-content {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header .header-content h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+    background: #ffffff;
+    margin-top: 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+
+.project-item {
+    background-color: #eeeeee;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
 }
 
 footer {
     text-align: center;
-    font-size: 0.8em;
+    padding: 1rem 0;
+    background: #ffffff;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 0.5rem 0;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
 }

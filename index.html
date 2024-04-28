@@ -3,28 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개발자 포트폴리오</title>
+    <title>Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>윤승언</h1>
-        <p>단국대학교 소프트웨어학과 3학년</p>
+        <nav>
+            <div class="logo">윤승언</div>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>개발자</h1>
+            <p>창의적이고 효율적인 솔루션을 제공하는 데 전념하는 프로페셔널 개발자입니다.</p>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>안녕하세요</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="www.naver.com">Project 1</a> - 설명</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>연락처: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>안녕하세요. 단국대학교 소프트웨어학과 윤승언입니다.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">Project 1</div>
+                <div class="project-item">Project 2</div>
+                <div class="project-item">Project 3</div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>연락처: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </main>
     <footer>
         <p>Copyright © 2024 윤승언</p>
     </footer>
