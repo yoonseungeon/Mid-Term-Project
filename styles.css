@@ -113,3 +113,9 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.skill-image {
+    max-width: 100px;
+    height: auto;
+  }
+  
