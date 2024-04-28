@@ -56,12 +56,16 @@ main {
 
 section {
     margin-bottom: 1rem;
+    padding: 1rem;
+    background: #ffffff; /* 기본 배경색 */
 }
 
-section h2 {
-    border-bottom: 2px solid #eeeeee;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+section#skills {
+    background-color: #e8f0fe; /* 스킬 섹션 배경색; /* Skills section background color */
+}
+
+section#certificates {
+    background-color: #ffe8d6; /* Certificates section background color */
 }
 
 .project-grid {
