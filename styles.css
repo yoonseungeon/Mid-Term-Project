@@ -12,10 +12,14 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-image: url('images/sakura.jpg');
+    background-size: cover;
+    background-position: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    color: #fff; /* 이 부분은 배경 이미지에 따라 글자 색을 조정해야 할 수도 있습니다. */
 }
+
 
 nav {
     display: flex;
