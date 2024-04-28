@@ -17,7 +17,7 @@ header {
     background-position: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    color: #fff; /* 이 부분은 배경 이미지에 따라 글자 색을 조정해야 할 수도 있습니다. */
+    color: #000000; /* 이 부분은 배경 이미지에 따라 글자 색을 조정해야 할 수도 있습니다. */
 }
 
 
