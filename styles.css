@@ -119,3 +119,16 @@ footer {
     height: auto;
   }
   
+  #inspiration {
+    background-color: #f4f4f4; /* 영감 섹션의 배경색 */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#inspiration h2 {
+    color: #333;
+}
+
+#inspiration p {
+    margin-bottom: 20px;
+}
